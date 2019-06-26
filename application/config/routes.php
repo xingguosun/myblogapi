@@ -59,7 +59,7 @@ $route['test'] = 'common/Test/test';
 //===========================================admin-后台管理-接口===================================
 
 // 添加-已测试
-// $route['a/create']['post'] = 'admin/Admin/create';
+$route['a/create']['post'] = 'admin/Admin/create';
 
 // 登录-已测试
 $route['a/login']['post'] = 'admin/Admin/login';
