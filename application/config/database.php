@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'mysql:dbname=数据库名称;host=数据库地址',
-	'hostname' => '数据库地址',
-	'username' => '数据库用户名',
-	'password' => '数据库密码',
-	'database' => '数据库名称',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '19910910Mk_1024',
+	'database' => 'myblog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
