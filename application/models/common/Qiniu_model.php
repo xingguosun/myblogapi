@@ -20,7 +20,7 @@ class Qiniu_model extends Base_Model
         $deadline = time() + 3600;
         $args['scope'] = $bucket;
         $args['deadline'] = $deadline;
-        $args['returnBody'] = '{"imgUrl": "http://idv093d.qiniudns.com/$(key)"}'; // 这里要改成自己的域名或其他，上传成功后是返回这个json数据，url就是图片的地址
+        $args['returnBody'] = '{"imgUrl": "http://ptqlh7jzp.bkt.clouddn.com/$(key)"}'; // 这里要改成自己的域名或其他，上传成功后是返回这个json数据，url就是图片的地址
         $b = json_encode($args);
         $result = array(
             'token'=> $this->signWithData($b)
