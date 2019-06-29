@@ -106,11 +106,11 @@ class Article extends Base_Controller
         //     array_push($list[$time], $v);
         // }
         foreach($msg['list'] as $k => $v) {
-            $year = date('Y', $v['article']['publishTime']).'年';
+            $year = date('Y', $v['article']['publishTime']).'';
             if (!isset($list[$year])) {
                 $list[$year] = array();
             }
-            $month = date('m', $v['article']['publishTime']).'月';
+            $month = date('F', $v['article']['publishTime']).'';
             if (!isset($list[$year][$month])) {
                 $list[$year][$month] = array();
             }
