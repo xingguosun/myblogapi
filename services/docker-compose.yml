@@ -67,8 +67,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 123456
       MYSQL_DATABASE: myblog
-      MYSQL_USER: mk
-      MYSQL_PASSWORD: mk123456
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: 123456
     restart: always
     command: "--character-set-server=utf8"
 
