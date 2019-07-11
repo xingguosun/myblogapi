@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> 'mysql:dbname=数据库名称;host=数据库地址',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '19910910Mk_1024',
+	'username' => 'mk',
+	'password' => 'mk123456',
 	'database' => 'myblog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
