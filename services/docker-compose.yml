@@ -23,7 +23,7 @@ services:
     links:
       - php-fpm:php-fpm
     volumes:
-      - ../:/var/www:rw
+      - ../:/var/www/myblogapi:rw
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
       - ./nginx/certs/:/etc/nginx/certs
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
