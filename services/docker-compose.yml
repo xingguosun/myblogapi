@@ -16,7 +16,7 @@ services:
     restart: always
     command: php-fpm
 
-  nginx:
+  myblogapi-nginx:
     build: ./nginx
     depends_on:
       - php-fpm
