@@ -77,7 +77,7 @@ $db['default'] = array(
 	'dsn'	=> 'mysql:dbname=数据库名称;host=数据库地址',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'xkpuYUed)4o1',
+	'password' => '19910910Mk_1024',
 	'database' => 'myblog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
